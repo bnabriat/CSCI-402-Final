@@ -1,0 +1,47 @@
+Favorites
+
+    <div>
+            <h2>Music</h2>
+
+            <h4>Genres</h4>
+            <ul>
+                <li>Gospel</li>
+                <li>Christian Rap</li>
+                <li>Rap</li>
+                <li>R&B</li>
+            </ul>
+
+            <h4>Songs</h4>
+            <ul>
+                <li>Liberian Girl by Michael Jackson</li>
+                <li>Still by Sondae and Tobi Adey</li>
+                <li>LOVE AGAIN by Daniel Caesar</li>
+                <li>through heaven's eyes by Sinmidele</li>
+            </ul>
+
+            <h4>Artists</h4>
+            <ul>
+                <li>Sondae</li>
+                <li>J. Cole</li>
+                <li>Michael Jackson</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Spider-Man (all of them)</li>
+                <li>Black Panther</li>
+                <li>The Avatar Series (Specifically Avatar: The Way of Water)</li>
+                <li>Cars</li>
+                <li>Creed</li>
+            </ul>
+        </div>
+
+Styles
+    /* Genres sit side by side and stack on small screens
+    .genre-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3.5rem 2rem;
+    } */
