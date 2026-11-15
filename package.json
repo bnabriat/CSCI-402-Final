@@ -1,0 +1,25 @@
+{
+  "name": "csci-402-final",
+  "version": "1.0.0",
+  "description": "Create a personal website that introduces yourself and showcases your web development skills, using Node.js as the backend server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnabriat/CSCI-402-Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bnabriat/CSCI-402-Final/issues"
+  },
+  "homepage": "https://github.com/bnabriat/CSCI-402-Final#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

@@ -4,10 +4,24 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+const comments = [];
+
+app.use(express.json());
+app.use(express.static('public'));
+
+app.get('/api/comments', (req, res) => {
+  res.json(comments);
+});
+
+app.post('/api/comments', (req, res) => {
+  const { name, message } = req.body;
+  if (!name || !message) {
+    return res.status(400).json({ error: 'Name and message are required.' });
+  }
+  comments.unshift({ name, message, date: new Date().toLocaleString() });
+  res.status(201).json({ success: true });
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
