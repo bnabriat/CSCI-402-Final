@@ -1,22 +1,20 @@
 .profile-pic {
   display: block;
   margin: 0 auto;
-  border-radius: 100%;
-  width: 400px; 
+  width: 690px; 
 }
 
 .about-gallery {
   display: flex;
-  margin-left: 10rem;
+  margin-left: 7.5rem;
+  margin-right: 7.5rem;
   align-items: flex-start;
 }
 
 .about-pic {
   display: inline-block;
-  margin: 0 auto;
   width: 400px;
   margin: 0 10px;
-
 }
 
 figcaption {
