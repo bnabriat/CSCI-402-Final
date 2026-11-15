@@ -5,6 +5,37 @@
   width: 400px; 
 }
 
+.about-gallery {
+  display: flex;
+  margin-left: 10rem;
+  align-items: flex-start;
+}
+
+.about-pic {
+  display: inline-block;
+  margin: 0 auto;
+  width: 400px;
+  margin: 0 10px;
+
+}
+
+figcaption {
+  text-align: center;
+}
+
+.about-columns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  flex: 1;
+  min-width: 300px;
+}
+
 h1 {
   font-size: 350%;
   font-weight: 1000;
@@ -89,6 +120,7 @@ h3 {
   line-height: 1.8;
   font-size: 1.5rem;
 }
+
 
 
 
